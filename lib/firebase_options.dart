@@ -49,20 +49,7 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBcrWkhPsmp64pSiuRYuqOAuze-jOTaIb0',
-    appId: '1:589482227541:android:0edec90f1324dc2bc1e1dc',
-    messagingSenderId: '589482227541',
-    projectId: 'medical-hub-5816a',
-    storageBucket: 'medical-hub-5816a.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBk2gDqiqs8PWlw8TzdKK-2yYUQfNuClsk',
-    appId: '1:589482227541:ios:9f03d132be415ea7c1e1dc',
-    messagingSenderId: '589482227541',
-    projectId: 'medical-hub-5816a',
-    storageBucket: 'medical-hub-5816a.appspot.com',
-    iosBundleId: 'com.example.mhAdminPanel',
-  );
+  # Add Firebase options for android
+ # Add Firebase options for IoS
+  
 }
